@@ -1,0 +1,59 @@
+footer {
+
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+
+
+    .content {
+        padding: 4rem 0;
+        justify-content: space-around;
+        width: 80%;
+
+        a {
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            font-size: 1.2rem;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #D63E1C;
+        }
+
+        .c1 {
+            gap: 1rem;
+        }
+
+        .c2 {
+            gap: 1rem;
+        }
+
+        .c3 {
+            gap: 1rem;
+        }
+    }
+
+    .policy {
+        width: 100%;
+        border-top: #D63E1C solid .1rem;
+        padding: 1rem 0;
+
+        p,
+        a {
+            font-family: 'Montserrat', sans-serif;
+            cursor: default;
+            font-size: 1.2rem;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        a:hover{
+            color: #D63E1C;
+        }
+    }
+
+}

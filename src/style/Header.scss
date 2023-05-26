@@ -1,0 +1,66 @@
+header {
+    z-index: 2;
+    position: relative;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3rem;
+    width: 95%;
+
+    .logo {
+        position: relative;
+        z-index: 2;
+
+        img {
+            width: 4rem;
+        }
+    }
+
+    .companyName {
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-transform: lowercase;
+    }
+
+    .main {
+        gap: 2rem;
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        a:hover {
+            color: #D63E1C;
+        }
+
+        .hamburger {
+            position: relative;
+            z-index: 2;
+            cursor: pointer;
+            gap: .3rem;
+
+            span {
+                width: 2rem;
+                height: 0.2rem;
+                background-color: #fff;
+
+            }
+
+            :nth-child(2) {
+                width: 1.5rem;
+            }
+        }
+
+        .hamburger:hover {
+            span {
+                background-color: #D63E1C;
+            }
+        }
+    }
+
+
+}
