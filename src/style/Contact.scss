@@ -1,0 +1,149 @@
+$a: calc(.5rem - 2px);
+$b: calc(1.5rem - 2px);
+
+.contactSection {
+    background-color: #17263A;
+    height: 100vh;
+    width: 100%;
+
+    .contactContainer {
+        justify-content: space-between;
+        width: 80%;
+        height: 80%;
+        background-color: #17263A;
+        box-shadow: rgba(0, 0, 0, 1.35) 0px 5px 15px;
+
+        .top {
+            margin: 1rem 5rem 0 3rem;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 5rem;
+            }
+        }
+
+        .middle {
+            gap: 10rem;
+            justify-content: space-between;
+
+            .left {
+                width: auto;
+
+                justify-content: space-between;
+
+                .leftTop {
+
+                    h1 {
+                        font-family: 'Montserrat', sans-serif;
+                        cursor: default;
+                        font-weight: 700;
+                        font-size: 3rem;
+                    }
+
+                    h2 {
+                        font-family: 'Montserrat', sans-serif;
+                        cursor: default;
+                        font-weight: 700;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .leftBottom {
+                    gap: 1rem;
+
+                    a {
+                        text-decoration: none;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .right {
+                width: auto;
+
+                form {
+                    width: 100%;
+                    display: flex;
+                    gap: 3rem;
+                    flex-direction: column;
+
+                    .formElemet {
+                        gap: 3rem;
+
+                        .input {
+                            gap: .5rem;
+
+                            p {
+                                font-family: 'Montserrat', sans-serif;
+                                cursor: default;
+                                font-size: 1.2rem;
+                                font-weight: 700;
+                            }
+
+                            input {
+                                font-family: 'Montserrat', sans-serif;
+                                font-size: 1.4rem;
+                                color: white;
+                                background-color: transparent;
+                                outline: none;
+                                border: none;
+                                border-bottom: solid white 2px;
+
+                            }
+                        }
+                    }
+
+                    .middleForm {
+                        input {
+                            width: 100%;
+                        }
+                    }
+
+
+                    .bottomForm {
+                        button {
+                            border-radius: 5px;
+                            text-align: center;
+                            font-family: 'Montserrat', sans-serif;
+                            cursor: default;
+                            font-size: 1.2rem;
+                            font-weight: 700;
+                            background-color: white;
+                            color: #17263A;
+                            border: none;
+                            padding: .5rem 1.5rem;
+                            cursor: pointer;
+                        }
+
+
+
+                        button:hover {
+                            background-color: #17263A;
+                            color: #fff;
+                            border: 2px solid white;
+                            padding: $a $b;
+                        }
+                    }
+                }
+            }
+
+            .bottom {}
+        }
+
+        .bottom {
+            margin-bottom: 4rem;
+            width: 80%;
+
+            .social {
+                gap: .5rem;
+
+                a {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+    }
+}

@@ -17,20 +17,20 @@ const Footer = () => {
           <a href="#home">Internship</a>
           <a href="#products">Job</a>
           <a href="#careers">Training</a>
-          <a href="#contact">Contact</a>
         </div>
         <div className="c3 fc">
           <a href="#home">Home</a>
           <a href="#products">Products</a>
+          <a href="#team">Team</a>
+          <a href="#reviews">Reviews</a>
           <a href="#careers">Careers</a>
           <a href="#contact">Contact</a>
-          
         </div>
       </div>
 
       <div className="policy fr f22">
-        <p>© {currentYear} PNT Company. All rights reserved.   </p>
-       &nbsp; &nbsp;
+        <p>© {currentYear} PNT Company. All rights reserved. </p>
+        &nbsp; &nbsp;
         <a href="#contact">Privacy policy </a>
       </div>
     </footer>
