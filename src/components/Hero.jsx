@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="scroll">
         <img
-          src="https://www.orthopedicare.com/wp-content/themes/socius/images/scroll-down.gif"
+          
           alt="Scroll Gif"
         />
       </div>
