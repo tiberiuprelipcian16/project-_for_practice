@@ -23,7 +23,7 @@ const Header = () => {
         id="logo"
       >
         <img src={Logo} id="img" alt="Logo" />
-        <img src={Logo} id="imgHover" alt="Logo" />
+        <img src={LogoHover} id="imgHover" alt="Logo" />
       </div>
 
       <div className="main flex fr">
