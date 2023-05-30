@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Header.scss";
 import Logo from "../assets/logo.svg";
-import LogoHover from "../assets/logo.svg";
+import LogoHover from "../assets/logoHover.svg";
 
 function changeLogoOver() {
   let e = document.getElementById('logo');
