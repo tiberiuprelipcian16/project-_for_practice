@@ -5,7 +5,7 @@ import LogoHover from "../assets/logoHover.svg";
 
 function changeLogoOver() {
   let e = document.getElementById('logo');
-  e.src = "{LogoHover}";
+  e.src = {LogoHover};
 }
 
 function changeLogoDown(){
