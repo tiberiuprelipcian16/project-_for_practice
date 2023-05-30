@@ -4,19 +4,26 @@ import Logo from "../assets/logo.svg";
 import LogoHover from "../assets/logoHover.svg";
 
 function changeLogoOver() {
-  let e = document.getElementById('logo');
-  e.innerHTML =  "<img src={LogoHover} alt='Logo' />";
+  document.getElementById("img").style.display = "none";
+  document.getElementById("imgHover").style.display = "inherit";
 }
 
-function changeLogoDown(){
-  let e = document.getElementById('logo');
-  e.innerHTML =  "<img src={Logo} alt='Logo' />";
+function changeLogoDown() {
+  document.getElementById("img").style.display = "inherit";
+  document.getElementById("imgHover").style.display = "none";
 }
+
 const Header = () => {
   return (
     <header className="flex fr">
-      <div className="logo" onMouseOver={changeLogoOver} onMouseDown={changeLogoDown} id="logo">
-        <img src={Logo} alt="Logo" />
+      <div
+        className="logo"
+        onMouseOver={changeLogoOver}
+        onMouseDown={changeLogoDown}
+        id="logo"
+      >
+        <img src={Logo} id="img" alt="Logo" />
+        <img src={Logo} id="imgHover" alt="Logo" />
       </div>
 
       <div className="main flex fr">
