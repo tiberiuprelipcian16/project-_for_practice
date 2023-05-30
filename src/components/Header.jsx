@@ -5,18 +5,18 @@ import LogoHover from "../assets/logoHover.svg";
 
 function changeLogoOver() {
   let e = document.getElementById('logo');
-  e.src = {LogoHover};
+  e.innerHTML =  "<img src={LogoHover} alt='Logo' />";
 }
 
 function changeLogoDown(){
   let e = document.getElementById('logo');
-  e.src = {Logo};
+  e.innerHTML =  "<img src={Logo} alt='Logo' />";
 }
 const Header = () => {
   return (
     <header className="flex fr">
-      <div className="logo">
-        <img src={Logo} onMouseOver={changeLogoOver} onMouseDown={changeLogoDown} id="logo" alt="Logo" />
+      <div className="logo" onMouseOver={changeLogoOver} onMouseDown={changeLogoDown} id="logo">
+        <img src={Logo} alt="Logo" />
       </div>
 
       <div className="main flex fr">
