@@ -13,6 +13,12 @@ header {
 
         img {
             width: 4rem;
+            content: url("../assets/logo.svg");
+        }
+
+        img:hover {
+            width: 4rem;
+            content: url("../assets/logoHover.svg");
         }
     }
 
