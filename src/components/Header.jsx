@@ -5,12 +5,12 @@ import LogoHover from "../assets/logoHover.svg";
 
 function changeLogoOver() {
   let e = document.getElementById('logo');
-  e.src = {LogoHover};
+  e.src = "../assets/logo.svg";
 }
 
 function changeLogoDown(){
   let e = document.getElementById('logo');
-  e.src = "{Logo}";
+  e.src = "../assets/logoHover.svg";
 }
 const Header = () => {
   return (
